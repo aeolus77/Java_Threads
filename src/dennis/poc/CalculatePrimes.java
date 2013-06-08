@@ -21,6 +21,7 @@ public class CalculatePrimes extends Thread{
         for (int i=2; count<MAX_PRIMES; i++){
             
             if (finished){
+                System.out.println("Last Found prime: " + primes[count-1]);
                 break;
             }
             
